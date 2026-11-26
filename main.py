@@ -53,7 +53,7 @@ for episode in range(num_episodes):
 env.close()
 
 
-env = gym.make("Taxi-v4", render_mode="ansi")
+env = gym.make("Taxi-v4", render_mode="human")
 
 # the 4 coloured stops on the Taxi map: name and (row, col)
 locations = [("Red", (0, 0)), ("Green", (0, 4)), ("Yellow", (4, 0)), ("Blue", (4, 3))]
